@@ -65,7 +65,7 @@ $ git clone https://github.com/Weder77/CONNECTED_FLOWERS.git
 $ cd UF_DEV
 $ cd algorithmique
 $ export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-$ gcc -o ter `mysql_config --cflags` algo_plante.c `mysql_config --libs` 
-$ ./ter
+$ gcc -o app `mysql_config --cflags` algo_plante.c `mysql_config --libs` 
+$ ./app
 ```
 
